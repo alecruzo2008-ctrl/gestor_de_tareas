@@ -72,6 +72,10 @@ export default function App() {
 
             <h1>Mis tareas</h1>
 
+            <p className="contador">
+              Total de tareas: {tareas.length}
+            </p>
+
             <form onSubmit={agregar}>
 
                 <label htmlFor="titulo">
